@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
+  list-style-type: none;
 }
 
 .header {
@@ -22,6 +23,7 @@
 
 .hamburger {
   margin-left: -27rem;
+  display: block;
 }
 
 .bar {
@@ -187,4 +189,189 @@
 
 .image2 {
   width: 114px;
+}
+
+/* page 2 adjusted styles */
+
+.page2-introh2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 0.6rem;
+  color: #ec5242;
+  text-align: center;
+}
+
+.page2-introh1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #ec5242;
+  text-align: center;
+}
+
+.page2-introp {
+  border: 3px solid #e5e5e5;
+  background-color: white;
+  margin: 2rem 1rem 3rem 1rem;
+  padding: 0.8rem;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.contact {
+  text-align: center;
+  padding: 0 1.9rem;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+}
+
+.bold {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.summit-logo-h2 {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.summit-logo-p {
+  text-align: center;
+  padding: 0 2rem;
+  font-size: 15px;
+  margin-bottom: 4rem;
+}
+
+.summit-logo-container {
+  border: 2px solid #ebe9e9;
+  margin: 2rem 2rem 5rem 2rem;
+  padding: 1.5rem 5rem;
+}
+
+.summit-logo-container img {
+  width: 100%;
+}
+
+.past-sumit {
+  width: 96%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.past-sumit .one {
+  background: url(./assets/summit\ one.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.past-sumit .two {
+  background: url(./assets/summit\ two.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.past-sumit .seethrough {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: hsla(6, 100%, 59%, 0.8);
+  height: 100%;
+  width: 100%;
+}
+
+.past-sumit .visible {
+  color: white;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.past-sumit-h1 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.past-sumit-p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.partners {
+  background-color: #414246;
+  margin-top: 5rem;
+  padding: 1px 20px;
+}
+
+.partners-h2 {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 30px;
+  color: white;
+}
+
+.partners-ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+.li1 {
+  font-size: 30px;
+  font-weight: 800;
+  color: #a9a9a9;
+}
+
+.li2 {
+  font-size: 40px;
+  font-weight: 300;
+  color: #545358;
+}
+
+.li3 {
+  font-size: 50px;
+  font-weight: 600;
+  color: #565656;
+}
+
+.li4 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #e5e5e5;
+}
+
+.li5 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #e5e5e5;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+
+footer .rights {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* desktop view */
+
+/* 1. page one */
+
+@media only screen and (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
 }
