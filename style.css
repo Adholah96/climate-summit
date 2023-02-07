@@ -13,6 +13,14 @@
   background-size: cover;
 }
 
+.socials {
+  display: none;
+}
+
+.more {
+  display: none;
+}
+
 .landing {
   padding: 1rem;
 }
@@ -134,6 +142,10 @@
   padding: 2rem 4rem;
   border: 0;
   margin: 0 4rem;
+}
+
+.see-prog {
+  display: none;
 }
 
 .featured-speakers h1 {
@@ -366,12 +378,222 @@ footer .rights {
   font-weight: 600;
 }
 
+.indices1 {
+  display: none;
+}
+
+.indices2 {
+  display: none;
+}
+
+.twoo {
+  display: none;
+}
+
 /* desktop view */
 
 /* 1. page one */
 
 @media only screen and (min-width: 768px) {
+  .nav {
+    padding: unset;
+  }
+
   .hamburger {
     display: none;
+  }
+
+  .socials {
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: #414246;
+  }
+
+  .socials ul {
+    display: flex;
+    float: right;
+    align-items: end;
+    justify-content: center;
+  }
+
+  .socials ul li {
+    margin-left: 2rem;
+  }
+
+  .socials ul li img {
+    margin-top: 4px;
+  }
+
+  .socials ul li:last-child {
+    margin-right: 10rem;
+  }
+
+  .socials a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+  }
+
+  .more {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .main-logo {
+    padding: 10px;
+  }
+
+  .page-links {
+    width: 40%;
+  }
+
+  .page-links ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .page-links ul li:last-child {
+    border: 5px solid #ec5242;
+    padding: 8px;
+  }
+
+  #red {
+    color: #ec5242;
+  }
+
+  .page-links a {
+    text-decoration: none;
+    color: #a9a9a9;
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  .landing {
+    padding: 0 30rem 10rem 13rem;
+  }
+
+  .introh2 {
+    font-size: 35px;
+    margin: 5rem 0 0.6rem 0;
+  }
+
+  .introh1 {
+    font-size: 62px;
+  }
+
+  .introp {
+    padding: 0.8rem;
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  .date {
+    font-size: 25px;
+    margin-bottom: 1rem;
+  }
+
+  .location {
+    color: #565656;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+
+  .main-program {
+    padding: 5rem;
+  }
+
+  .main-program h1 {
+    margin-top: 0;
+  }
+
+  .program-container {
+    display: flex;
+    gap: 3px;
+  }
+
+  .card {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card p {
+    text-align: center;
+  }
+
+  .join-button {
+    display: none;
+  }
+
+  .see-prog {
+    display: block;
+    color: #e5e5e5;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 15px;
+  }
+
+  .featured-speakers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 8rem;
+  }
+
+  .featured-h1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 4rem;
+  }
+
+  .spacing {
+    margin-bottom: 5rem;
+  }
+
+  .indices1 {
+    display: block;
+  }
+
+  .indices2 {
+    display: flex;
+    padding: 3rem 12rem;
+    gap: 2rem;
+  }
+
+  .indices2 .rights {
+    line-height: 2;
+  }
+
+  .about1 {
+    display: none;
+  }
+
+  .about2 {
+    background-color: #414246;
+    margin-top: 6rem;
+  }
+
+  .one {
+    display: none;
+  }
+
+  .twoo {
+    display: block;
+    color: white;
+    line-height: 2;
+  }
+
+  footer {
+    display: flex;
+    padding: 3rem 12rem;
+    gap: 2rem;
   }
 }
