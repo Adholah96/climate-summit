@@ -21,10 +21,6 @@
   display: none;
 }
 
-.landing {
-  padding: 1rem;
-}
-
 .nav {
   padding: 2rem 0 2rem 3rem;
 }
@@ -421,6 +417,10 @@ footer .rights {
     margin-left: 2rem;
   }
 
+  .summit-logo-container img {
+    width: 100%;
+  }
+
   .socials ul li img {
     margin-top: 4px;
   }
@@ -581,7 +581,7 @@ footer .rights {
     margin-top: 6rem;
   }
 
-  .one {
+  .onee {
     display: none;
   }
 
@@ -595,5 +595,58 @@ footer .rights {
     display: flex;
     padding: 3rem 12rem;
     gap: 2rem;
+  }
+
+  .landing2 {
+    padding: 6rem 20rem;
+  }
+
+  .page2-introh2 {
+    display: none;
+  }
+
+  .page2-introh1 {
+    font-size: 60px;
+    font-weight: 800;
+    color: #ec5242;
+    text-align: center;
+  }
+
+  .page2-introp {
+    text-align: center;
+  }
+
+  .breaker {
+    display: none;
+  }
+
+  .summit-logo {
+    margin: 3rem 10rem 6rem;
+  }
+
+  .summit-logo-h2 {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 25px;
+  }
+
+  .summit-logo-p {
+    text-align: center;
+    padding: 0 2rem;
+    font-size: 15px;
+    margin-bottom: 4rem;
+  }
+
+  .summit-logo-container {
+    border: 2px solid #ebe9e9;
+    width: 40%;
+    margin: 2rem auto;
+  }
+
+  .past-sumit {
+    width: 70%;
+    height: 200px;
+    flex-direction: row;
+    margin: 1rem auto;
   }
 }
