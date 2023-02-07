@@ -6,11 +6,23 @@
   list-style-type: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .header {
   background-image: url(./assets/background.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.landing {
+  padding: 3rem;
+}
+
+.landing2 {
+  padding-bottom: 3rem;
 }
 
 .socials {
@@ -26,8 +38,15 @@
 }
 
 .hamburger {
-  margin-left: -27rem;
+  /* margin-left: -27rem; */
   display: block;
+  float: left;
+}
+
+.hamburger.active {
+  z-index: 1;
+  position: fixed;
+  right: 2.5rem;
 }
 
 .bar {
@@ -44,6 +63,7 @@
   font-weight: 400;
   margin-bottom: 0.6rem;
   color: #ec5242;
+  margin-top: 5rem;
 }
 
 .introh1 {
@@ -101,13 +121,17 @@
 
 .card {
   display: flex;
-
-  /* flex-wrap: wrap; */
   justify-content: center;
   align-items: center;
   padding: 1.5rem;
   background-color: rgba(60, 63, 70, 0.9);
   margin-bottom: 1.2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  background-color: #565656;
+  padding: 2rem;
 }
 
 .card h2 {
@@ -137,11 +161,18 @@
   font-size: 11px;
   padding: 2rem 4rem;
   border: 0;
-  margin: 0 4rem;
+  margin: 0 11rem;
 }
 
 .see-prog {
   display: none;
+}
+
+.featured-h1 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 4rem;
 }
 
 .featured-speakers h1 {
@@ -207,6 +238,7 @@
   margin-bottom: 0.6rem;
   color: #ec5242;
   text-align: center;
+  margin-top: 5rem;
 }
 
 .page2-introh1 {
@@ -386,6 +418,58 @@ footer .rights {
   display: none;
 }
 
+/* menu page */
+
+.window {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-color: #a9a9a9;
+  transition: 0.3s;
+  left: -100%;
+  border-radius: 100px 0 300px 0;
+  border: 5px solid #ec5242;
+  opacity: 0.97;
+}
+
+.window-list {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  color: #3a4a42;
+  flex-direction: column;
+  padding: 35px;
+  list-style-type: none;
+}
+
+.window-list li a {
+  text-decoration: none;
+  color: #ec5242;
+}
+
+.window-list li {
+  margin-top: 40px;
+}
+
+.window.active {
+  left: 0;
+  top: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(11px) rotate(41deg);
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-15px) rotate(-45deg);
+}
+
 /* desktop view */
 
 /* 1. page one */
@@ -463,15 +547,19 @@ footer .rights {
     padding: 8px;
   }
 
-  #red {
-    color: #ec5242;
-  }
-
   .page-links a {
     text-decoration: none;
     color: #a9a9a9;
     font-weight: 600;
     font-size: 15px;
+  }
+
+  .page-links ul li:first-child a {
+    color: #ec5242;
+  }
+
+  #red {
+    color: #ec5242;
   }
 
   .landing {
