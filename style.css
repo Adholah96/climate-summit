@@ -106,7 +106,7 @@ html {
 .main-program {
   background-image: url(./assets/pattern_background.png);
   background-color: black;
-  padding: 1.3rem;
+  padding: 1.3rem 4rem;
 }
 
 .main-program h1 {
@@ -149,6 +149,7 @@ html {
   font-size: 18px;
   flex: 2;
   padding: 0.5rem;
+  width: 20px;
 }
 
 .card p {
@@ -168,9 +169,10 @@ html {
   color: white;
   background-color: #ec5242;
   font-size: 11px;
-  padding: 2rem 4rem;
+  padding: 15px;
   border: 0;
-  margin: 0 11rem;
+  margin: 0 2rem;
+  text-align: center;
 }
 
 .see-prog {
@@ -479,6 +481,23 @@ footer .rights {
   transform: translateY(-15px) rotate(-45deg);
 }
 
+.more-speakers {
+  width: 90%;
+  margin: 1rem auto;
+  padding: 10px;
+  border: 2px solid #565656;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.featured-speakers .hide {
+  display: none;
+}
+
+i {
+  color: #ec5242;
+}
+
 /* desktop view */
 
 /* 1. page one */
@@ -495,19 +514,20 @@ footer .rights {
   .socials {
     display: block;
     width: 100%;
-    height: 40px;
+    height: 25px;
     background-color: #414246;
   }
 
   .socials ul {
     display: flex;
     float: right;
-    align-items: end;
+    align-items: center;
     justify-content: center;
   }
 
   .socials ul li {
     margin-left: 2rem;
+    margin-top: 5px;
   }
 
   .summit-logo-container img {
@@ -525,7 +545,12 @@ footer .rights {
   .socials a {
     text-decoration: none;
     color: white;
-    font-weight: 600;
+    font-weight: 400;
+    font-size: 10px;
+  }
+
+  .more-speakers {
+    display: none;
   }
 
   .more {
@@ -621,6 +646,10 @@ footer .rights {
     justify-content: center;
   }
 
+  .card h2 {
+    width: unset;
+  }
+
   .card p {
     text-align: center;
   }
@@ -642,6 +671,10 @@ footer .rights {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 8rem;
+  }
+
+  .featured-speakers .hide {
+    display: flex;
   }
 
   .featured-h1 {

@@ -80,3 +80,29 @@ cardArray.forEach((data) => {
 
   cardValues.innerHTML += content;
 });
+
+// display more functionality
+
+const displayMore = document.getElementById('more-speaker');
+const speakers = Array.from(document.querySelectorAll('.featured-container'));
+speakers.forEach((card, val) => {
+  if (val > 1) {
+    card.classList.add('hide');
+  }
+});
+
+const iconeBehaviour = (developer) => {
+  if (developer.classList.contains('hide')) {
+    displayMore.innerHTML = 'More <i class="fa-solid fa-angle-down"></i>';
+  } else {
+    displayMore.innerHTML = 'Less <i class="fa-solid fa-angle-up"></i>';
+  }
+};
+displayMore.addEventListener('click', () => {
+  speakers.forEach((developer, val) => {
+    if (val > 1) {
+      developer.classList.toggle('hide');
+      iconeBehaviour(developer);
+    }
+  });
+});
