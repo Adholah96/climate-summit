@@ -65,6 +65,14 @@ html {
   color: #ec5242;
   margin-top: 5rem;
 }
+.h1div {
+  background: url(https://wallpaperaccess.com/full/1818031.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .introh1 {
   font-size: 40px;
