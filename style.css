@@ -106,7 +106,7 @@ html {
 .main-program {
   background-image: url(./assets/pattern_background.png);
   background-color: black;
-  padding: 1.3rem 4rem;
+  padding: 1.3rem 0;
 }
 
 .main-program h1 {
@@ -132,10 +132,11 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1.5rem;
   background-color: rgba(60, 63, 70, 0.9);
-  margin-bottom: 1.2rem;
   transition: all 0.3s ease-in-out;
+  width: 90%;
+  margin: 1rem auto;
+  padding: 1rem;
 }
 
 .card:hover {
@@ -156,8 +157,8 @@ html {
   color: white;
   font-size: 15px;
   flex: 7;
-  padding: 0.2rem;
   font-weight: 400;
+  margin-left: 30px;
 }
 
 .card img {
@@ -494,7 +495,7 @@ footer .rights {
   display: none;
 }
 
-i {
+.more-speakers i {
   color: #ec5242;
 }
 
