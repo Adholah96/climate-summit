@@ -116,7 +116,7 @@ After you're finished please remove all the comments and instructions!
 <!-- > Add a link to your deployed project. -->
 
 - [Live Demo Link](https://adholah96.github.io/climate-summit/)
-- [Video Link](#)
+- [Video Link](https://www.loom.com/share/091dfd67fd6f422ea5949891d2340f0a)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
