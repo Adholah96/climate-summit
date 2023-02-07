@@ -60,38 +60,42 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Climate Summit <a name="about-project"></a>
+# 📖 CLIMATE SUMMIT <a name="about-project"></a>
 
 <!-- > Describe your project in 1 or 2 sentences. -->
 
-**Cimate Summit** is a landing page designed for an incoming seminar.
+**climate summit** is a capstone project built purely on CSS, HTML, and Javascript for an incoming seminar. The capstone is personalized from a design template provided from Behance.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a>
+- **HTML**
+- **CSS**
+- **JAVASCRIPT**
+
+<!-- ### Tech Stack <a name="tech-stack"></a> -->
 
 <!-- > Describe the tech stack and include only the relevant sections that apply to your project. -->
 
-<details>
+<!-- <details>
   <summary>Client</summary>
   <ul>
     <li><a href="https://reactjs.org/">Html, CSS</a></li>
   </ul>
-</details>
+</details> -->
 
-<details>
+<!-- <details>
   <summary>Server</summary>
   <ul>
     <li><a href="https://expressjs.com/">N/A</a></li>
   </ul>
-</details>
+</details> -->
 
-<details>
+<!-- <details>
 <summary>Database</summary>
   <ul>
     <li><a href="https://www.postgresql.org/">N/A</a></li>
   </ul>
-</details>
+</details> -->
 
 <!-- Features -->
 
@@ -99,12 +103,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- > Describe between 1-3 key features of the application. -->
 
-- **mobile aproach**
-- **form submission**
+- **Multiple Pages**
 - **Responsiveness**
 - **Mobile Menu**
-- **Javascript Dynanism and modal**
-- **local storage**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,21 +115,22 @@ After you're finished please remove all the comments and instructions!
 
 <!-- > Add a link to your deployed project. -->
 
-- [Live Demo Link](https://adholah96.github.io/personal-portfolio/)
+- [Live Demo Link](https://adholah96.github.io/climate-summit/)
+- [Video Link](https://www.loom.com/share/091dfd67fd6f422ea5949891d2340f0a)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started <a name="getting-started"></a>
+<!-- ## 💻 Getting Started <a name="getting-started"></a> -->
 
 <!-- > Describe how a new developer could make use of your project. -->
 
-To get a local copy up and running, follow these steps.
+<!-- To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+In order to run this project you need: -->
 
 <!--
 Example command:
@@ -138,7 +140,7 @@ Example command:
 ```
  -->
 
-### Setup
+<!-- ### Setup
 
 Clone this repository to your desired folder:
 
@@ -149,9 +151,9 @@ Example commands:
   git clone git@github.com:Adholah96/personal-portfolio.git
 ```
 
--
+- -->
 
-### Install
+<!-- ### Install
 
 Install this project with:
 
@@ -163,21 +165,9 @@ Example command:
 ```
 --->
 
-### Usage
+<!-- ### Usage
 
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
+To run the project, execute the following command: -->
 
 <!--
 Example command:
@@ -187,9 +177,21 @@ Example command:
 ```
 --->
 
-### Deployment
+<!-- ### Run tests
 
-You can deploy this project using:
+To run tests, run the following command: -->
+
+<!--
+Example command:
+
+```sh
+
+```
+--->
+
+<!-- ### Deployment
+
+You can deploy this project using: -->
 
 <!--
 Example:
@@ -207,25 +209,21 @@ Example:
 
 <!-- > Mention all of the collaborators of this project. -->
 
-👤 **Heldricks Adhola**
+👤 **HELDRICKS ADHOLA**
 
 - GitHub: [@adholah96](https://github.com/Adholah96)
 - Twitter: [@nerdy*me*](https://twitter.com/nerdy_me_)
 - LinkedIn: [heldricks-arthur](https://linkedin.com/in/heldricks-arthur-59ab2411a)
 
-👤 **Akande Abdulwasiu**
-
-- GitHub: [@adholah96](https://github.com/Newtayo)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
+<!-- FUTURE FEATURES --> 
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-<!-- > Describe 1 - 3 features you will add to the project. -->
+ <!-- Describe 1 - 3 features you will add to the project. --> 
 
-- **Better UI/UX style**
+- **Contact Form**
 - **More Functionality**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -236,7 +234,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+<!-- Feel free to check the [issues page](../../issues/). -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -244,9 +242,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-<!-- > Write a message to encourage readers to support your project -->
-
-If you like this project kindly reach out for future collaborations.
+Always leave a ⭐️ if you like this project and any of my other projects.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -256,7 +252,7 @@ If you like this project kindly reach out for future collaborations.
 
 <!-- > Give credit to everyone who inspired your codebase. -->
 
-I would like to thank my fellow micronauts; Hassan momany and coding partners; Sonik for helping me through the project.
+Passing my sincere gratitude to Cynthia from Behance for the design template.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -274,7 +270,7 @@ I would like to thank my fellow micronauts; Hassan momany and coding partners; S
 
   - [Answer_2]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> --> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- LICENSE -->
 

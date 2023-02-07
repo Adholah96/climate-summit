@@ -1,0 +1,783 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  list-style-type: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+  background-image: url(./assets/background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.landing {
+  padding: 3rem;
+}
+
+.landing2 {
+  padding-bottom: 3rem;
+}
+
+.socials {
+  display: none;
+}
+
+.more {
+  display: none;
+}
+
+.nav {
+  padding: 2rem 0 2rem 3rem;
+}
+
+.hamburger {
+  /* margin-left: -27rem; */
+  display: block;
+  float: left;
+}
+
+.hamburger.active {
+  z-index: 1;
+  position: fixed;
+  right: 2.5rem;
+}
+
+.bar {
+  display: block;
+  width: 40px;
+  height: 8px;
+  margin: 5px auto;
+  background-color: #565656;
+  transition: all 0.3s ease-in-out;
+}
+
+.introh2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 0.6rem;
+  color: #ec5242;
+  margin-top: 5rem;
+}
+
+.h1div {
+  background: url(https://wallpaperaccess.com/full/1818031.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.introh1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #ec5242;
+}
+
+.introp {
+  border: 3px solid white;
+  margin: 2rem 1rem;
+  padding: 0.8rem;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.date {
+  font-size: 25px;
+  font-weight: 800;
+  color: #565656;
+  margin-bottom: 1rem;
+}
+
+.location {
+  color: #565656;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 5rem;
+}
+
+.main-program {
+  background-image: url(./assets/pattern_background.png);
+  background-color: black;
+  padding: 1.3rem 0;
+}
+
+.main-program h1 {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+
+.underline {
+  width: 55px;
+  height: 3px;
+  background-color: #ec5242;
+  margin: 1.5rem auto;
+}
+
+.program-container {
+  margin-top: 3rem;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(60, 63, 70, 0.9);
+  transition: all 0.3s ease-in-out;
+  width: 90%;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+
+.card:hover {
+  background-color: #565656;
+  padding: 2rem;
+}
+
+.card h2 {
+  color: #ec5242;
+  font-weight: 800;
+  font-size: 18px;
+  flex: 2;
+  padding: 0.5rem;
+  width: 20px;
+}
+
+.card p {
+  color: white;
+  font-size: 15px;
+  flex: 7;
+  font-weight: 400;
+  margin-left: 30px;
+}
+
+.card img {
+  flex: 1;
+  padding: 0.5rem;
+}
+
+.join-button {
+  color: white;
+  background-color: #ec5242;
+  font-size: 11px;
+  padding: 15px;
+  border: 0;
+  margin: 0 2rem;
+  text-align: center;
+}
+
+.see-prog {
+  display: none;
+}
+
+.featured-h1 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 4rem;
+}
+
+.featured-speakers h1 {
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+
+.card1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  background-image: url(./assets/chess.svg);
+  background-repeat: no-repeat;
+  background-size: 70px;
+  background-position: left top;
+  margin-bottom: 4rem;
+}
+
+.text-container {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: start;
+}
+
+.text-container h2 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.text-container .italic {
+  font-style: italic;
+  color: #ec5242;
+  font-size: 15px;
+}
+
+.underline2 {
+  height: 1px;
+  width: 50px;
+  background-color: #565656;
+  margin-top: 0.3rem;
+}
+
+.text-container p {
+  font-size: 13px;
+  margin-top: 0.3rem;
+}
+
+.image2 {
+  width: 114px;
+}
+
+/* page 2 adjusted styles */
+
+.page2-introh2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 0.6rem;
+  color: #ec5242;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.page2-introh1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #ec5242;
+  text-align: center;
+}
+
+.page2-introp {
+  border: 3px solid #e5e5e5;
+  background-color: white;
+  margin: 2rem 1rem 3rem 1rem;
+  padding: 0.8rem;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.contact {
+  text-align: center;
+  padding: 0 1.9rem;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+}
+
+.bold {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.summit-logo-h2 {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.summit-logo-p {
+  text-align: center;
+  padding: 0 2rem;
+  font-size: 15px;
+  margin-bottom: 4rem;
+}
+
+.summit-logo-container {
+  border: 2px solid #ebe9e9;
+  margin: 2rem 2rem 5rem 2rem;
+  padding: 1.5rem 5rem;
+}
+
+.summit-logo-container img {
+  width: 100%;
+}
+
+.past-sumit {
+  width: 96%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.past-sumit .one {
+  background: url(./assets/summit\ one.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.past-sumit .two {
+  background: url(./assets/summit\ two.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.past-sumit .seethrough {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: hsla(6, 100%, 59%, 0.8);
+  height: 100%;
+  width: 100%;
+}
+
+.past-sumit .visible {
+  color: white;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.past-sumit-h1 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.past-sumit-p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.partners {
+  background-color: #414246;
+  margin-top: 5rem;
+  padding: 1px 20px;
+}
+
+.partners-h2 {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 30px;
+  color: white;
+}
+
+.partners-ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+.li1 {
+  font-size: 30px;
+  font-weight: 800;
+  color: #a9a9a9;
+}
+
+.li2 {
+  font-size: 40px;
+  font-weight: 300;
+  color: #545358;
+}
+
+.li3 {
+  font-size: 50px;
+  font-weight: 600;
+  color: #565656;
+}
+
+.li4 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #e5e5e5;
+}
+
+.li5 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #e5e5e5;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+
+footer .rights {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.indices1 {
+  display: none;
+}
+
+.indices2 {
+  display: none;
+}
+
+.twoo {
+  display: none;
+}
+
+/* menu page */
+
+.window {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-color: #a9a9a9;
+  transition: 0.3s;
+  left: -100%;
+  border-radius: 100px 0 300px 0;
+  border: 5px solid #ec5242;
+  opacity: 0.97;
+}
+
+.window-list {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  color: #3a4a42;
+  flex-direction: column;
+  padding: 35px;
+  list-style-type: none;
+}
+
+.window-list li a {
+  text-decoration: none;
+  color: #ec5242;
+}
+
+.window-list li {
+  margin-top: 40px;
+}
+
+.window.active {
+  left: 0;
+  top: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(11px) rotate(41deg);
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-15px) rotate(-45deg);
+}
+
+.more-speakers {
+  width: 90%;
+  margin: 1rem auto;
+  padding: 10px;
+  border: 2px solid #565656;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.featured-speakers .hide {
+  display: none;
+}
+
+.more-speakers i {
+  color: #ec5242;
+}
+
+/* desktop view */
+
+/* 1. page one */
+
+@media only screen and (min-width: 768px) {
+  .nav {
+    padding: unset;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .socials {
+    display: block;
+    width: 100%;
+    height: 25px;
+    background-color: #414246;
+  }
+
+  .socials ul {
+    display: flex;
+    float: right;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .socials ul li {
+    margin-left: 2rem;
+    margin-top: 5px;
+  }
+
+  .summit-logo-container img {
+    width: 100%;
+  }
+
+  .socials ul li img {
+    margin-top: 4px;
+  }
+
+  .socials ul li:last-child {
+    margin-right: 10rem;
+  }
+
+  .socials a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 10px;
+  }
+
+  .more-speakers {
+    display: none;
+  }
+
+  .more {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .main-logo {
+    padding: 10px;
+  }
+
+  .page-links {
+    width: 40%;
+  }
+
+  .page-links ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .page-links ul li:last-child {
+    border: 5px solid #ec5242;
+    padding: 8px;
+  }
+
+  .page-links a {
+    text-decoration: none;
+    color: #a9a9a9;
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  .page-links ul li:first-child a {
+    color: #ec5242;
+  }
+
+  #red {
+    color: #ec5242;
+  }
+
+  .landing {
+    padding: 0 30rem 10rem 13rem;
+  }
+
+  .introh2 {
+    font-size: 35px;
+    margin: 5rem 0 0.6rem 0;
+  }
+
+  .introh1 {
+    font-size: 62px;
+  }
+
+  .introp {
+    padding: 0.8rem;
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  .date {
+    font-size: 25px;
+    margin-bottom: 1rem;
+  }
+
+  .location {
+    color: #565656;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+
+  .main-program {
+    padding: 5rem;
+  }
+
+  .main-program h1 {
+    margin-top: 0;
+  }
+
+  .program-container {
+    display: flex;
+    gap: 3px;
+  }
+
+  .card {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card h2 {
+    width: unset;
+  }
+
+  .card p {
+    text-align: center;
+  }
+
+  .join-button {
+    display: none;
+  }
+
+  .see-prog {
+    display: block;
+    color: #e5e5e5;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 15px;
+  }
+
+  .featured-speakers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 8rem;
+  }
+
+  .featured-speakers .hide {
+    display: flex;
+  }
+
+  .featured-h1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 4rem;
+  }
+
+  .spacing {
+    margin-bottom: 5rem;
+  }
+
+  .indices1 {
+    display: block;
+  }
+
+  .indices2 {
+    display: flex;
+    padding: 3rem 12rem;
+    gap: 2rem;
+  }
+
+  .indices2 .rights {
+    line-height: 2;
+  }
+
+  .about1 {
+    display: none;
+  }
+
+  .about2 {
+    background-color: #414246;
+    margin-top: 6rem;
+  }
+
+  .onee {
+    display: none;
+  }
+
+  .twoo {
+    display: block;
+    color: white;
+    line-height: 2;
+  }
+
+  footer {
+    display: flex;
+    padding: 3rem 12rem;
+    gap: 2rem;
+  }
+
+  .landing2 {
+    padding: 6rem 20rem;
+  }
+
+  .page2-introh2 {
+    display: none;
+  }
+
+  .page2-introh1 {
+    font-size: 60px;
+    font-weight: 800;
+    color: #ec5242;
+    text-align: center;
+  }
+
+  .page2-introp {
+    text-align: center;
+  }
+
+  .breaker {
+    display: none;
+  }
+
+  .summit-logo {
+    margin: 3rem 10rem 6rem;
+  }
+
+  .summit-logo-h2 {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 25px;
+  }
+
+  .summit-logo-p {
+    text-align: center;
+    padding: 0 2rem;
+    font-size: 15px;
+    margin-bottom: 4rem;
+  }
+
+  .summit-logo-container {
+    border: 2px solid #ebe9e9;
+    width: 40%;
+    margin: 2rem auto;
+  }
+
+  .past-sumit {
+    width: 70%;
+    height: 200px;
+    flex-direction: row;
+    margin: 1rem auto;
+  }
+}
